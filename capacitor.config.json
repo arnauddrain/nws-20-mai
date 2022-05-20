@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "nws-20-mai",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
