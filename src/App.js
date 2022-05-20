@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+const test = "cette variable ne sert à rien";
+
 function App() {
   return (
     <div className="App">
