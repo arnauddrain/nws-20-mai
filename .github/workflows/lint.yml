@@ -1,0 +1,8 @@
+name: Lint
+on: "pull_request"
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "npm i"
+      - run: "npx eslint --max-warning=0 src/"
