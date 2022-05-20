@@ -12,8 +12,8 @@ jobs:
         env:
           cache-name: cache-node-modules
         with:
-          path: ~/.npm
-          key: ${{ hashFiles('**/package-lock.json') }}
+          path: node_modules
+          key: ${{ node_modules-hashFiles('**/package-lock.json') }}
       - run: "npm i"
       - run: "npx eslint --max-warnings=0 src/"
       - run: "npx prettier --check src/"
