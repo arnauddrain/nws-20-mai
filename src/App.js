@@ -1,16 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-const test = "cette variable ne sert à rien";
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to my app!
-        </p>
+        <p>Welcome to my app!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
